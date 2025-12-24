@@ -21,7 +21,7 @@
 }
 
 .hidden-card {
-    background-color: pink;
+    background-color: rgb(209, 35, 67);
     padding: 20px;
     border-radius: 8px;
     position: absolute;
@@ -59,8 +59,8 @@
     opacity: 1;
 }
 
-.card:hover + .hidden-card,
-.card:hover ~ .hidden-card {
+.card-container:hover .hidden-card,
+.hidden-card:hover {
     opacity: 1;
     visibility: visible;
 }
