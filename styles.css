@@ -57,6 +57,11 @@
 
 .card:hover {
     opacity: 1;
+    background-color: white;
+}
+
+.card:hover p {
+    color: pink;
 }
 
 .card-container:hover .hidden-card,
